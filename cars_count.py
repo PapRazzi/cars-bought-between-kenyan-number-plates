@@ -1,5 +1,6 @@
 """
 This python script counts the number of cars sold between any two provided number plates
+It does that by counting all cars sold for each given number plate, then it finds the difference
 
 Assumptions made is that all number plates between KAA 001A and KZZ 999Z are eligible
 
