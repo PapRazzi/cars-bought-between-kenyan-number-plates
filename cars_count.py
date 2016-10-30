@@ -29,6 +29,7 @@ total_num = ((second_stop-1)*675324) + ((third_stop-1)*25974) + ((last_stop-1)*9
 
 import string
 
+#this function calculates the number of cars sold upto a given plate
 def count_car_sales(plate):
 	total_num = 0
 	#Extract number plate characters
