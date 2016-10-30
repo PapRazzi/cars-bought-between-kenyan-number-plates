@@ -25,7 +25,6 @@ Understand computation starting from the last four digits
 
 Now, the total number of cars bought upto a given plaete can be found as:
 total_num = ((second_stop-1)*675324) + ((third_stop-1)*25974) + ((last_stop-1)*999) + num_seq_stop
-
 """
 
 import string
