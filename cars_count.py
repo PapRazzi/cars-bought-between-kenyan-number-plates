@@ -8,8 +8,8 @@ Given a number plate 'KCA 123G'
 We first extract the individual characters K C A , the number sequence 123, and the last character G
 We then loop through the last four letters - i.e. the 123G part to get the number of cars sold upto the point of the plate and get num_cars
 
-When a numberplate changes the third letter e.g. from KCA to KCB, 25974 cars have been sold
-When a numberplate changes the second letter e.g. from KBA to KCA, 675324 cars have been sold
+When a numberplate changes the third letter e.g. from KCA xxxx to KCB xxxx, 25974 cars have been sold
+When a numberplate changes the second letter e.g. from KBx xxxx to KCx xxxx, 675324 cars have been sold
 
 Now, the total number of cars can be found as:
 total_num = ((second_stop-1)*675324) + ((third_stop-1)*25974) +num_cars	
@@ -51,7 +51,7 @@ def count_car_sales(plate):
 	#We then use the second and third letters of the number plate to find the total number of cars sold
 	#We use second_stop-1 because if the number plate is at KBA, (B=2), it means that all numberplates of KAx xxxx, have been used and A=1 therefore A=B-1
 	#We use third_stop-1 because if the number plate is at KAC, (C=3), it means that all numberplates of KAB xxxx and KAB xxxx have been used, and B=2 therefore B=C-1
-	total_num = ((second_stop-1)*675324) + ((third_stop-1)*25974) +num_cars	
+	total_num = ((second_stop-1)*675324) + ((third_stop-1)*25974) + num_cars	
 	return total_num;
 
 #this function returns an integer value for a given letter
