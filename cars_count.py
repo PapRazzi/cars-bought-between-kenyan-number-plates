@@ -37,13 +37,13 @@ def count_car_sales(plate):
 	num_seq = plate[4:7]
 	last = plate[7].upper()
 	
-	#here, second_stop third_stop and last_stop describe the where to stop counting (thus stop the iteration), as obtained from the number plate
+	#here, second_stop third_stop and last_stop describe where to stop counting (thus stop the iteration), as obtained from the number plate
 	second_stop =  get_alpha_value(second) 
 	third_stop =  get_alpha_value(third)
 	num_seq_stop = int(num_seq)	
 	last_stop =  get_alpha_value(last)
 	
-	#Here, we count the number of cars on the last four characters of the number plate
+	#Here, we count the number of cars on the last four characters of the number plate upto given plate
 	for k in range(1,num_seq_stop+1):
 		for l in range(1,last_stop+1):
 			num_cars = num_cars + 1
