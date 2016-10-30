@@ -18,7 +18,6 @@ Understand computation starting from the last four digits
 	Use the last letter to find the number of cars ending in preceding letter that have been sold, and add the current num sequence
 	E.g. for KAA 784C, we have 999 cars ending in A, and 999 cars ending in B, and 784 cars ending in C --- ((last_stop-1)*999) + 		num_seq_stop
 				
-	We Use the second and third letters of the number plate to find the total number of cars sold
 	We use second_stop-1 because if the number plate is at KBA, (B=2), it means that all numberplates of KAx xxxx, have been used and A=1 		therefore A=B-1
 	We use third_stop-1 because if the number plate is at KAC, (C=3), it means that all numberplates of KAB xxxx and KAB xxxx have been 		used, and B=2 therefore B=C-1	
 
