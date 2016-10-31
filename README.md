@@ -29,4 +29,5 @@ We use second_stop-1 because if the number plate is at KBA, (B=2), it means that
 We use third_stop-1 because if the number plate is at KAC, (C=3), it means that all numberplates of KAB xxxx and KAB xxxx have been used, and B=2 therefore B=C-1	
 
 Now, the total number of cars bought upto a given plaete can be found as:
+
 total_num = ((second_stop-1)*675324) + ((third_stop-1)*25974) + ((last_stop-1)*999) + num_seq_stop
