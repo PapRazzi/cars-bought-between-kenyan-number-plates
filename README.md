@@ -1,7 +1,7 @@
 # cars-bought-between-kenyan-number-plates
 # Calculating the number of cars bought in between any two Kenyan number plates
 
-TThis python script counts the number of cars sold between any two provided number plates
+This python script counts the number of cars sold between any two provided number plates
 
 We count the number upto a given plate, count the number upto the other given plate, then find the difference between the two counts
 
