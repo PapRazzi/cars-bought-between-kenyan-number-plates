@@ -5,7 +5,7 @@ This python script counts the number of cars sold between any two provided numbe
 
 We count the number upto a given plate, count the number upto the other given plate, then find the difference between the two counts
 
-Assumptions made is that all number plates between KAA 001A and KZZ 999Z are eligible
+Assumption made is that all number plates between KAA 001A and KZZ 999Z are eligible
 
 Given a number plate 'KCA 123G'
 
