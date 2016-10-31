@@ -13,10 +13,12 @@ We first extract the individual characters K C A , the number sequence 123, and 
 
 # Note:
 When a numberplate changes the third letter e.g. from KCA xxxx to KCB xxxx, 25974 cars have been sold
+
 When a numberplate changes the second letter e.g. from KBx xxxx to KCx xxxx, 675324 cars have been sold
+
 When a numberplate changes the last letter e.g. from KCA xxxA to KCA xxxB, 999 cars have been sold
 
-# Understand computation starting from the last four digits	
+# Understand the computation starting from the last four digits	
 When the last letter changes e.g. from A to B, 999 cars ending in A have been sold
 
 Use the last letter to find the number of cars ending in preceding letter that have been sold, and add the current num sequence
