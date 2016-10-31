@@ -11,6 +11,8 @@ Given a number plate 'KCA 123G'
 
 We first extract the individual characters K C A , the number sequence 123, and the last character G
 
+We then map the letters to corresponding numeral values and use the numeral values to calculate
+
 # Note:
 When a numberplate changes the third letter e.g. from KCA xxxx to KCB xxxx, 25974 cars have been sold
 
